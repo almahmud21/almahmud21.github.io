@@ -1,0 +1,36 @@
+{{ define "main" }}
+<main class="container py-4">
+    {{/* Page Title and Content */}}
+    <div class="text-center mb-5">
+        <h1>{{ .Title }}</h1>
+        <div class="lead">{{ .Content }}</div>
+    </div>
+
+
+    {{/* Project Grid */}}
+    <div class="row project-grid">
+        {{ range .Pages }}
+        {{ $categories := .Params.categories }}
+        <div class="col-md-4 col-sm-6 project-item mb-4 
+                {{ range $categories }}{{ . | urlize }} {{ end }}">
+            <div class="card">
+                <div class="project-image-container">
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.featured_image | relURL }}" class="img-fluid" alt="{{ .Title }}"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/6c757d/fff?text=Project+Image';">
+                       <div class="project-overlay">
+                                    <div class="project-overlay-content">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ .Title }}</h5>
+                    <p class="card-text text-muted">{{ .Params.location }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

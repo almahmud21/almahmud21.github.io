@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{/* ... Your existing hero section code ... */}}
+
+
+{{/* Add the project gallery below the hero */}}
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h2 class="display-5">Featured Projects</h2>
+    </div>
+    {{ partial "project-gallery.html" . }}
+</div>
+{{ end }}

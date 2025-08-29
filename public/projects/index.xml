@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Projects on Project Leo</title>
+    <link>https://example.org/projects/</link>
+    <description>Recent content in Our Projects on Project Leo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 10:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warner Brothers</title>
+      <link>https://example.org/projects/warner-brothers/</link>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/warner-brothers/</guid>
+      <description>&lt;p&gt;Detailed description of the Warner Brothers project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>London Residential</title>
+      <link>https://example.org/projects/ajaira/</link>
+      <pubDate>Thu, 28 Aug 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/ajaira/</guid>
+      <description>&lt;p&gt;Detailed description of the London residential project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>London Residential</title>
+      <link>https://example.org/projects/london-residential/</link>
+      <pubDate>Thu, 28 Aug 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/london-residential/</guid>
+      <description>&lt;p&gt;Detailed description of the London residential project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Qube</title>
+      <link>https://example.org/projects/qube-commercial/</link>
+      <pubDate>Wed, 27 Aug 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/qube-commercial/</guid>
+      <description>&lt;p&gt;Detailed description of the Qube commercial project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

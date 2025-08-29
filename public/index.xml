@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Leo</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Project Leo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2025 10:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warner Brothers</title>
+      <link>https://example.org/projects/warner-brothers/</link>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/warner-brothers/</guid>
+      <description>&lt;p&gt;Detailed description of the Warner Brothers project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>London Residential</title>
+      <link>https://example.org/projects/ajaira/</link>
+      <pubDate>Thu, 28 Aug 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/ajaira/</guid>
+      <description>&lt;p&gt;Detailed description of the London residential project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>London Residential</title>
+      <link>https://example.org/projects/london-residential/</link>
+      <pubDate>Thu, 28 Aug 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/london-residential/</guid>
+      <description>&lt;p&gt;Detailed description of the London residential project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Qube</title>
+      <link>https://example.org/projects/qube-commercial/</link>
+      <pubDate>Wed, 27 Aug 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/projects/qube-commercial/</guid>
+      <description>&lt;p&gt;Detailed description of the Qube commercial project&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-10/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-10/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-11/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-11/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-12/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-12/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-2/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-2/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-3/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-3/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-4/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-4/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-5/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-5/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-6/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-6/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-7/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-7/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-8/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-8/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy-9/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy-9/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post-copy/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post-copy/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/blog/my-first-post/</link>
+      <pubDate>Sun, 24 Aug 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/blog/my-first-post/</guid>
+      <description>&lt;p&gt;This is the content of my very first blog post. It&amp;rsquo;s written in Markdown.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-subheading&#34;&gt;A Subheading&lt;/h2&gt;&#xA;&lt;p&gt;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&#xA;You can use all the standard Markdown features, like lists, bold text, and italic text. It&amp;rsquo;s easy and fun!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>&lt;p&gt;This is where I&amp;rsquo;ll tell you a little bit about myself.&lt;/p&gt;&#xA;&lt;div class=&#34;row &#34;&gt;&lt;div class=&#34;col-md-6&#34;&gt;&lt;h3 id=&#34;sidebar&#34;&gt;Sidebar&lt;/h3&gt;&#xA;&lt;p&gt;This is the smaller column.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/0RKpf3rK57I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&lt;/div&gt;&#xA;&lt;div class=&#34;col-md-6&#34;&gt;&lt;h3 id=&#34;main-content&#34;&gt;Main Content&lt;/h3&gt;&#xA;&lt;p&gt;This is the larger column that takes up the remaining space.&lt;/p&gt;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Contact Me</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/contact/</guid>
+      <description>&lt;p&gt;You can reach me at &lt;a href=&#34;mailto:myemail@example.com&#34;&gt;myemail@example.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Services</title>
+      <link>https://example.org/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/services/</guid>
+      <description>&lt;p&gt;Here are the services I offer, organized in a two-column layout.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main class="container py-4">
+    <div class="row">
+        {{/* Main Content Column */}}
+        <div class="col-md-10">
+            <article>
+                <header class="mb-4">
+                    <h1 class="fw-bolder mb-1">{{ .Title }}</h1>
+                    <div class="text-muted fst-italic mb-2">
+                        Posted on {{ .Date.Format "January 2, 2006" }}
+                    </div>
+                </header>
+                <section class="mb-5" id="post-content">
+                    {{ .Content }}
+                </section>
+            </article>
+        </div>
+
+        {{/* Table of Contents Sidebar */}}
+        <div class="col-md-2">
+            <div class="toc-sticky fz-6">
+                <h5>Contents</h5>
+                <nav id="toc" class="nav flex-column">
+                    {{ .TableOfContents }}
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

@@ -1,0 +1,14 @@
+<header class="hero-section" 
+        style="background: url('{{ with .Params.hero }}{{ . }}{{ else }}/images/default-hero.jpg{{ end }}') 
+               no-repeat center center/cover;">
+  <div class="container text-center text-white d-flex align-items-center justify-content-center" style="min-height: 100vh; position: relative; z-index: 2;">
+    <div>
+      <h1 class="display-3 fw-bold wow animate__fadeInUp">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="lead">{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+  <div class="overlay"></div>
+</header>
+

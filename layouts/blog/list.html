@@ -1,0 +1,44 @@
+{{ define "main" }}
+<main class="container py-4">
+  {{/* This displays the title and content from content/blog/_index.md */}}
+  <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">{{ .Title }}</h1>
+        <div class="col-md-8 fs-4">
+            {{ .Content }}
+        </div>
+    </div>
+  </div>
+
+  <hr/>
+
+  {{/* This loops through all the blog posts in a three-column grid */}}
+  <div class="row">
+    {{ range .Paginator.Pages }}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <a href="{{ .Permalink }}">
+            {{/* Check for a featured image */}}
+            {{ if .Params.featured_image }}
+              <img src="{{ .Params.featured_image | relURL }}" class="card-img-top" alt="{{ .Title }}" 
+                   onerror="this.onerror=null;this.src='https://placehold.co/600x400/6c757d/fff?text=Image+Not+Found';">
+            {{ else }}
+              <img src="https://placehold.co/600x400/6c757d/fff?text=No+Image" class="card-img-top" alt="{{ .Title }}">
+            {{ end }}
+          </a>
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ .Permalink }}" class="text-dark text-decoration-none">{{ .Title }}</a></h5>
+          </div>
+          <div class="card-footer text-muted">
+            {{ .Date.Format "January 2, 2006" }}
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+  {{/* Include pagination links */}}
+  {{ partial "pagination.html" . }}
+
+</main>
+{{ end }}
