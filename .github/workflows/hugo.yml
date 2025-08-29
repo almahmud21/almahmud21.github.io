@@ -15,7 +15,9 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-
+          
+      - name: Add .nojekyll
+        run: touch public/.nojekyll
       - name: Build
         run: hugo --minify
 
