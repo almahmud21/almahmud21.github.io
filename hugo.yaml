@@ -1,0 +1,46 @@
+baseURL: "https://almahmud21.github.io/"
+languageCode: "en-us"
+title: "Project Leo"
+pagination:
+  pagerSize: 6
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  category_order:
+    - "Current Projects"
+    - "Residential"
+    - "Commercial"
+    - "Special Projects"
+
+taxonomies:
+  category: categories      
+
+
+params:
+  logo: "/images/logo.png"  # or any path to your logo image
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+
+    - identifier: about
+      name: About Us
+      url: /about/
+      weight: 20
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+
+    - identifier: contact
+      name: Contact Us
+      url: /contact/
+      weight: 50

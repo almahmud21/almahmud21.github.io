@@ -1,0 +1,69 @@
+{{ define "main" }}
+    {{/* --- HERO CAROUSEL FOR HOMEPAGE --- */}}
+    {{ if .Params.hero_slides }}
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            {{ range $index, $slide := .Params.hero_slides }}
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}" aria-current="true" aria-label="Slide {{ add $index 1 }}"></button>
+            {{ end }}
+        </div>
+
+        <!-- Slides Wrapper -->
+        <div class="carousel-inner">
+            {{ range $index, $slide := .Params.hero_slides }}
+                <div class="carousel-item {{ if eq $index 0 }}active{{ end }}" data-bs-interval="4000">
+                    <img src="{{ .image | relURL }}" class="d-block w-100" alt="{{ .title }}" onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/6c757d/fff?text=Hero+Image';">
+                    
+                    {{/* --- UPDATED CAPTION --- */}}
+                    <div class="carousel-caption d-md-block">
+                        {{/* Animation classes have been removed */}}
+                        <h2 class="display-4 slider_title fw-bold wow fadeInUp">{{ .title }}</h2>
+                        <p class="lead slider_para wow fadeInUp" data-wow-delay="0.1s">{{ .text }}</p>
+                        
+                        {{/* New button has been added */}}
+                        <div class="wow animate__zoomIn"data-wow-delay="0.2s">
+                            <a href="/contact/" class="btn btn-warning m-1 py-2 px-4">Contact Us</a>
+                        </div>
+                    </div>
+
+                </div>
+            {{ end }}
+        </div>
+
+    </div>
+    {{ end }}
+
+    {{/* --- Your existing homepage sections --- */}}
+
+    
+    <section class="bg-light py-md-3">
+        {{ partial "about.html" . }}
+    </section>
+
+    <section class="services py-md-3">
+       {{ partial "services.html" . }}
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+         <div class="container text-center mb-4">
+         <h1 class="display-4 fw-bold">Our Projects</h1>
+        <hr class="w-25 mx-auto">
+        <div class="lead text-dark">Over 13 years of excellence — luxury homes and heritage restorations with precision and timeless design</div>
+         </div>
+        {{ partial "project-gallery.html" . }}
+    </section>
+
+    <section class="choose-us py-md-3">
+        {{ partial "choose.html" . }}
+    </section>
+
+    <section class="bg-light py-md-3">
+        {{ partial "contact.html" . }}
+    </section>
+
+
+
+{{ end }}
+

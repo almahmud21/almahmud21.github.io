@@ -1,0 +1,33 @@
+<header class="hero-section">
+  <div class="container text-center text-white d-flex align-items-center justify-content-center my-containerr">
+    <div>
+      <h1 class="display-3 fw-bold wow animate__fadeInUp">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="lead">{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+  <div class="overlay"></div>
+
+  <style>
+    .hero-section {
+      background: url('{{ with .Params.hero }}{{ . }}{{ else }}/images/default-hero.jpg{{ end }}')
+                  no-repeat center center/cover;
+    }
+
+    .my-containerr {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+    }
+
+    @media (max-width: 767px) {
+      .my-containerr {
+        min-height: 75vh;
+      }
+      .hero-section {
+       height: 75vh;
+      }
+    }
+  </style>
+</header>
