@@ -70,7 +70,7 @@ h5, .h5{
 
 
 span{
-  font-weight: 600;
+  font-weight: 500;
   color:var(--pure-black);
   font-size: 16px;
    font-family: "Poppins", sans-serif;
@@ -101,12 +101,12 @@ span{
 }
 .nav-link{
  font-size: 17px;
- font-weight: 500;
+ font-weight: 400;
  color: var(--pure-white);
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 500;
 }
 .nav-link:focus, .nav-link:hover {
      color: var(--primary-color);

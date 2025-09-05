@@ -1,7 +1,7 @@
 ---
 title: "About Us"
-image: "/images/hero-image/about-us.jpg"   # matches your layout's image param
-hero: "/images/hero-image/about-us.jpg"   # matches your layout's image param
+image: "/images/hero-image/about-us.jpg"   
+hero: "/images/hero-image/about-us.jpg"
 ---
 At Project Leo Construction, we craft extraordinary projects of enduring quality and character. Established over 13 years ago and led with vision by our founder, PLC has evolved into one of London’s most respected principal contractors, renowned for delivering prime residences, heritage restorations and commercial excellence of the highest calibre.
 

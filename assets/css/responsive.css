@@ -56,6 +56,6 @@ h2, .h2 {
 @media screen and (max-width: 500px) {
 
     .img-border {
-    min-height: 270px;
-}
+        min-height: 310px;
+    }
 }

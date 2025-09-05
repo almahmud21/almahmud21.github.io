@@ -6,13 +6,13 @@
         <div class="choose-content">
           <h2 class="mb-2 wow animate__fadeInDown text-center text-md-start" data-wow-delay="0.1s">{{ .Params.heading }}</h2>
          <hr class="w-25 d-md-none d-block mx-auto">
-          <p class="lead text-dark mb-4 wow animate__fadeIn" data-wow-delay="0.2s">{{ .Params.description }}</p>
+          <p class="lead text-dark mb-3 wow animate__fadeIn" data-wow-delay="0.2s">{{ .Params.description }}</p>
           
           <div class="features-list">
             {{ range $index, $feature := .Params.features }}
             <div class="feature-item d-flex align-items-center mb-3 wow animate__fadeInLeft" data-wow-delay="{{ add 0.3 (mul $index 0.1) }}s">
               <div class="feature-icon me-3">
-                <i class="fas fa-check-circle text-primary"></i>
+                <i class="fas fa-check-circle text-dark fw-normal"></i>
               </div>
               <span>{{ $feature }}</span>
             </div>
