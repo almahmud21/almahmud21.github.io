@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema A/V Headquarters | Project Leo</title>
@@ -19,12 +19,12 @@
     
     
     
-    <link rel="stylesheet" href="/css/bundle.min.09b30e096c1c41ce6ef1b3f03fe59775233f88ea6a5e7799a7216a73b2c21c6f.css" integrity="sha256-CbMOCWwcQc5u8bPwP&#43;WXdSM/iOpqXneZpyFqc7LCHG8=">
+    <link rel="stylesheet" href="/css/bundle.min.107f78869a636c2500312cf669c8bf2be7e76e331ecf1620d212005882821b0f.css" integrity="sha256-EH94hppjbCUAMSz2aci/K&#43;fnbjMezxYg0hIAWIKCGw8=">
 
 </head>
 <body><nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="https://almahmud21.github.io/">
+    <a class="navbar-brand" href="http://localhost:1313/">
       
         <img src="/images/logo.png" alt="Project Leo" class="rounded-2">
       
@@ -74,11 +74,16 @@
     <header class="hero-section">
   <div class="container text-center text-white d-flex align-items-center justify-content-center my-containerr">
     <div>
-      <h1 class="display-3 fw-bold wow animate__fadeInUp">Cinema A/V Headquarters</h1>
+      <h1 class="wow animate__fadeInUp">Cinema A/V Headquarters</h1>
       
     </div>
   </div>
   <div class="overlay"></div>
+
+  
+  <a href="#next-section" class="scroll-down">
+    <i class="fas fa-chevron-down bounce fs-4"></i>
+  </a>
 
   <style>
     .hero-section {
@@ -92,19 +97,72 @@
       min-height: 100vh;
     }
 
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+
+    h2.headline {
+      font-weight: 600;
+      font-size: 65px;
+      letter-spacing: 3px;
+    }
+
+    .hero-section .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.558); 
+      z-index: 1;
+    }
+
+     
+    .scroll-down {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 32px;
+      color: #fff;
+      z-index: 3;
+      text-decoration: none;
+    }
+
+     
+    .bounce {
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(10px);
+      }
+      60% {
+        transform: translateY(5px);
+      }
+    }
+
     @media (max-width: 767px) {
       .my-containerr {
         min-height: 75vh;
       }
       .hero-section {
-       height: 75vh;
+        height: 75vh;
       }
     }
   </style>
 </header>
 
     
-<main class="container py-5">
+<main class="container py-5" id="next-section">
 
   
   <div class="row mb-5">
@@ -134,7 +192,7 @@ You can write multiple paragraphs of content here.</p>
   
 
 <section class="mb-5">
-  <h1 class="mb-4 display-6 fw-semibold">Project Gallery</h1>
+  <h1 class="mb-4">Project Gallery</h1>
   <div class="row project-gallery">
     
       <div class="col-md-4 col-sm-6 mb-4">
@@ -180,7 +238,7 @@ You can write multiple paragraphs of content here.</p>
   
 
 <section class="mb-5">
-  <h2 class="mb-4 display-6 fw-semibold">Project Video</h2>
+  <h2 class="mb-4">Project Video</h2>
   <div class="ratio ratio-16x9">
     <video controls playsinline preload="metadata">
       <source src="/videos/video_1.webm" type="video/mp4">
@@ -191,17 +249,50 @@ You can write multiple paragraphs of content here.</p>
 
 
 </main>
-<html>
-<div class="below bg-dark text-white p-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center text-white">
-             <p class="text-white">Copyright &copy; 2025 Project Leo | All rights reserved.</p>
-            </div>
-        </div>
-    </div>
+<footer class="site-footer bg-dark text-white py-5">
+  <div class="container text-center">
+<div class="row justify-content-center align-items-center mb-3">
+  <div class="col-6 col-md-2 mb-3">
+    <img src="/images/client/client_1.png" alt="Logo 1" class="img-fluid grayscale-logo">
+  </div>
+  <div class="col-6 col-md-2 mb-3">
+    <img src="/images/client/client_2.png" alt="Logo 2" class="img-fluid grayscale-logo">
+  </div>
+  <div class="col-6 col-md-2 mb-3">
+    <img src="/images/client/client_3.png" alt="Logo 3" class="img-fluid grayscale-logo">
+  </div>
 </div>
-</html>
+
+
+
+    <div style="border-bottom:2px solid gray;"> </div>
+
+
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-3" style="font-size:13px;">
+      <p class="text-white">Copyright &copy; 2025 Project Leo | All rights reserved.</p>
+
+      <ul class="footer-menu list-unstyled d-flex mb-0 mt-md-0 mt-3" style="font-size:13px;">
+        <li class="ms-3"><a href="/" class="text-white text-decoration-none">Home</a></li>
+        <li class="ms-3"><a href="/projects" class="text-white text-decoration-none">Projects</a></li>
+        <li class="ms-3"><a href="/about" class="text-white text-decoration-none">About Us</a></li>
+        <li class="ms-3"><a href="/careers" class="text-white text-decoration-none">Careers</a></li>
+        <li class="ms-3"><a href="/contact" class="text-white text-decoration-none">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <style>
+    .grayscale-logo {
+      filter: grayscale(100%);
+      transition: filter 0.3s ease-in-out;
+      max-height: 60px;
+    }
+    .grayscale-logo:hover {
+      filter: grayscale(0%);
+    }
+  </style>
+</footer>
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -218,6 +309,21 @@ You can write multiple paragraphs of content here.</p>
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+<script src="https://unpkg.com/kursor"></script>
+<script>
+	new kursor({
+		type: 1,
+		color: '#B59410',
+		removeDefaultCursor: false,	
+	})
+</script>
+
+
+
+
+
+    
 
 
 

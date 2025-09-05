@@ -2,6 +2,7 @@
 
 {{ $projectPages := where site.RegularPages "Section" "projects" }}
 
+
 {{/* Filter Navigation */}}
 <div id="project-filters" class="d-flex justify-content-center flex-wrap mb-4">
     <button class="btn btn-outline-primary m-2 active" data-filter="*">All</button>
@@ -11,7 +12,7 @@
 </div>
 
 {{/* Project Grid */}}
-<div class="container">
+<div class="containerss px-md-5 px02">
     <div class="row project-grid">
     {{ range $projectPages }}
         {{ $categories := .Params.categories }}
