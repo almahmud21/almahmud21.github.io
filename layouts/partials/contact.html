@@ -12,7 +12,7 @@
       <div class="col-md-6 wow fadeInLeft">
         <div class="common_title">
         </div>
-        <div class="text-muted mb-4 lead">
+        <div class="text-muted mb-4 leads">
           {{ .Content | safeHTML }}
         </div>
 
@@ -41,27 +41,15 @@
 
         <!-- Social Media Icons -->
         <div class="d-flex gap-3">
-          {{ with .Params.social.facebook }}
+          {{ with .Params.social.instagram }}
           <a href="{{ . }}" target="_blank" class="social-link">
             <i class="fa-brands fa-instagram"></i>
           </a>
           {{ end }}
 
-          {{ with .Params.social.twitter }}
-          <a href="{{ . }}" target="_blank" class="social-link">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-          {{ end }}
-
           {{ with .Params.social.linkedin }}
           <a href="{{ . }}" target="_blank" class="social-link">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          {{ end }}
-
-          {{ with .Params.social.github }}
-          <a href="{{ . }}" target="_blank" class="social-link">
-           <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
           {{ end }}
         </div>

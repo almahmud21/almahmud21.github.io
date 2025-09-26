@@ -4,12 +4,12 @@ title: "Home"
 hero_slides:
   - image: "/images/home-slider/home-slider-1.jpeg"
     title: "Building Trust, Creating Legacy"
-    text: "True luxury is measured by enduring quality and the relationships we build along the way."
+    text: "Shaping legacies through trust, timeless dedication, and enduring craftsmanship."
   - image: "/images/home-slider/home-slider-2.jpeg"
     title: "Where Precision Meets Creativity"
-    text: "From design to interiors, we bring visionary ideas to life with uncompromising craftsmanship."
+    text: "The artistry of precision, the elegance of imagination - crafted into every detail."
   - image: "/images/home-slider/home-slider-3.jpeg"
     title: "Built on Family Values"
-    text: "Crafting extraordinary spaces with trust, care, and craftsmanship."
+    text: "Rooted in integrity, refined through care, and perfected with craftsmanship."
 ---
 

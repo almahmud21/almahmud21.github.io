@@ -11,6 +11,7 @@ markup:
 
 params:
   logo: "/images/logo.png"  # navbar logo
+  # footer brand logo
   footerBrandLogos:
     - image: "/images/client/client_1.png"
       alt: "Logo 1"
@@ -18,6 +19,7 @@ params:
       alt: "Logo 2"
     - image: "/images/client/client_3.png"
       alt: "Logo 3"
+      
   category_order:
     - "Current Projects"
     - "Residential"

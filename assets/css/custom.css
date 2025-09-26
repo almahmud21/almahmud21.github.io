@@ -263,6 +263,16 @@ h2.headline{
     margin: 10px 0px;
     font-family: "Brygada 1918", serif;
 }
+.leads p{
+    font-size: 1.30rem;
+    font-family: "Brygada 1918", serif;
+}
+.lead p{
+    font-family: "Brygada 1918", serif;
+    width: 75%;
+    margin: 0 auto;
+}
+
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
